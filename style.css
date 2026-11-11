@@ -1,4 +1,4 @@
-/* Pengaturan dasar halaman */
+/*Pengaturan Halaman*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     color: #263449;
 }
 
-/* Bagian kepala dan navigasi */
+/*Header dan Navigasi*/
 header {
     background-color: #ffffff;
     padding: 18px 8%;
@@ -51,7 +51,7 @@ header {
     color: #2878bd;
 }
 
-/* Bagian beranda */
+/*Beranda*/
 .beranda {
     min-height: 82vh;
     padding: 55px 10%;
@@ -135,7 +135,7 @@ header {
     object-position: center 25%;
 }
 
-/* Bagian tentang saya */
+/*Tentang Saya*/
 .tentang {
     padding: 65px 10%;
     background-color: #ffffff;
@@ -194,7 +194,7 @@ header {
     list-style-type: square;
 }
 
-/* Bagian kaki halaman */
+/*Footer*/
 footer {
     background-color: #173f70;
     color: white;
@@ -216,7 +216,7 @@ footer p {
     color: #c8dcf2;
 }
 
-/* Tampilan untuk layar kecil */
+/*Layar Kecil*/
 @media (max-width: 700px) {
     .navigasi {
         flex-direction: column;
